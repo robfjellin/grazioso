@@ -46,5 +46,5 @@ public class Dog extends RescueAnimal {
         breed = dogBreed;
     }
 
-    // TEST
+    // TEST 2
 }
