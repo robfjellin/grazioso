@@ -204,7 +204,7 @@ public class Driver {
         String acquisitionDate = scanner.nextLine();
         System.out.println("Where was " + name + " acquired?");
         String acquisitionLocation = scanner.nextLine();
-        System.out.println("What is " + name + "'s training status?l");
+        System.out.println("What is " + name + "'s training status?");
         String trainingStatus = scanner.nextLine();
 
         // Converted input to boolean
