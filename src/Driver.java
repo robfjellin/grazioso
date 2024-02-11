@@ -206,11 +206,8 @@ public class Driver {
         String acquisitionLocation = scanner.nextLine();
         System.out.println("What is " + name + "'s training status?");
         String trainingStatus = scanner.nextLine();
-
-        // Converted input to boolean
         System.out.println("Is " + name + " reserved? Enter true or false.");
-        String temp = scanner.nextLine();
-        boolean reserved = Boolean.parseBoolean(temp);
+        boolean reserved = scanner.nextBoolean();
         System.out.println("What country will " + name + " be serviced in?");
         String inServiceLocation = scanner.nextLine();
         System.out.println("How long is " + name + "'s tail?");
